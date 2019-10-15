@@ -56,6 +56,7 @@ body, input, button{
     font-weight: bold;
     margin-bottom: 8px;
     color: #444;
+    text-transform: uppercase;
 
 }
 .content form input{

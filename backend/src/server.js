@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 const routes = require('./routes');
 
@@ -9,6 +10,8 @@ mongoose.connect('mongodb://admin:admin123@ds229108.mlab.com:29108/aircnc', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
+
+app.use(cors());
 
 app.use(express.json());
 
