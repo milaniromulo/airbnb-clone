@@ -12,7 +12,7 @@ function App() {
             <img src={logo} alt="Click Qi" style={ {'maxWidth': '200px'} }/>
 
             <div className="content">
-                <Routes/>
+                <Routes />
             </div>
         </div>
     );
